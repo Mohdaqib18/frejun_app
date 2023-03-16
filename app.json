@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "freejun_project_app",
+    "name": "frejun_project_app",
     "slug": "freejun_project_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aqib18.freejun_project_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "386fd514-a354-43d7-9034-717170e323c9"
+      }
     }
   }
 }
